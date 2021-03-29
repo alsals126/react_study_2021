@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="273d62ef-e0b1-4756-82ca-8d6c64e4c44d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component-basic/component-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component-basic/props-basic-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component-basic/props-children.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js-study/function-as-value.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js-study/object-destruct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jsx/create-react-element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component-intermediate/manipulate-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component-intermediate/shallow-merge-caveat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component-intermediate/todo-app-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js-study/immutable-list-manipulation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +74,8 @@
       <workItem from="1615772316715" duration="6109000" />
       <workItem from="1616127886410" duration="5635000" />
       <workItem from="1616377731420" duration="2466000" />
+      <workItem from="1616845972880" duration="663000" />
+      <workItem from="1616981676891" duration="5143000" />
     </task>
     <servers />
   </component>
