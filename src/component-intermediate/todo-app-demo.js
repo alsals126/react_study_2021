@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 class TodoItem extends Component {
     render() {
-        const { completed, text } = this.props.todo
+        const { completed, text } = this.props.todo //비구조 할당
 
         return (
             <div>
@@ -51,7 +51,7 @@ class TodoAdder extends Component {
         }
     }
 
-    handleChange = (e) => {
+    handleChange = (e) => { //화살표 함수를 쓰는게 유지보수할 때 좋다
         this.setState({ input: e.target.value })
     }
 
@@ -61,7 +61,7 @@ class TodoAdder extends Component {
                 <input type='text' onChange={this.handleChange} value={this.state.input} />
                 <button onClick={() => {
                     this.props.handleTodoAdd({ completed: false, text: this.state.input })
-                    this.setState({ input: '' })
+                    this.setState({ input: '' }) // 빈 입력창
                 }}>Add</button>
             </div>
         )
@@ -114,7 +114,7 @@ class TodoApp extends Component {
             <div>
                 <TodoList
                     todos={this.state.todos}
-                    handleTodoStatusToggle={this.handleTodoStatusToggle}
+                    handleTodoStatusToggle={this.handleTodoStatusToggle} //메서드
                     handleTodoRemove={this.handleTodoRemove}/>
                 <TodoAdder handleTodoAdd={this.handleTodoAdd} />
             </div>
