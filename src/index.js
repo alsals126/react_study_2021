@@ -10,4 +10,9 @@
 //import './component-intermediate/manipulate-list'e
 //import  './component-intermediate/todo-app-demo'
 //import './component-intermediate/lifecycle-methods'
-import './component-intermediate/timer-demo'
+//import './component-intermediate/timer-demo'
+//import './component-intermediate/lifecycle-method-should-component-update'
+//import './component-intermediate/force-update-demo'
+//import './component-advanced/ref-demo'
+//import  './component-advanced/controlled-component'
+import './component-advanced/reservation-form'
