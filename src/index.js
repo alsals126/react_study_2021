@@ -16,4 +16,5 @@
 //import './component-advanced/ref-demo'
 //import  './component-advanced/controlled-component'
 //import './component-advanced/reservation-form'
-import './component-intermediate/lifecycle-method-component-did-update'
+//import './component-intermediate/lifecycle-method-component-did-update'
+import './component-advanced/forwarding-refs'
