@@ -16,5 +16,5 @@ class MyComponent extends Component {
         )// <> 가능
     }
 }
-ReactDOM.render(<MyComponent />, document.getElementById("root"))
+ReactDOM.render(<MyComponent />, document.getElementById("root")) // 그려질때 필요한 것
 // <MyComponent /> --> 클래스 이름 작성. render()함수에 있는 것을 리턴해줌

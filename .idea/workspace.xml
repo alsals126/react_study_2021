@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="273d62ef-e0b1-4756-82ca-8d6c64e4c44d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component-advanced/forwarding-refs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component-basic/component-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component-basic/component-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component-intermediate/todo-app-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component-intermediate/todo-app-demo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,8 @@
       <workItem from="1617579261904" duration="3351000" />
       <workItem from="1617942331015" duration="5837000" />
       <workItem from="1618191172323" duration="3864000" />
-      <workItem from="1618546845686" duration="4540000" />
+      <workItem from="1618546845686" duration="4562000" />
+      <workItem from="1618650663081" duration="14459000" />
     </task>
     <servers />
   </component>
