@@ -9,7 +9,7 @@
 //import './component-intermediate/counter-demo'
 //import './component-intermediate/shallow-merge-caveat'
 //import './component-intermediate/manipulate-list'e
-import  './component-intermediate/todo-app-demo'
+//import  './component-intermediate/todo-app-demo'
 //import './component-intermediate/lifecycle-methods'
 //import './component-intermediate/timer-demo'
 //import './component-intermediate/lifecycle-method-should-component-update'
@@ -19,3 +19,4 @@ import  './component-intermediate/todo-app-demo'
 //import './component-advanced/reservation-form'
 //import './component-intermediate/lifecycle-method-component-did-update'
 //import './component-advanced/forwarding-refs'
+import './수행평가/make-image-slider-3112-ohjeongmin'
