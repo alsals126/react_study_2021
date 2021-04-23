@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="273d62ef-e0b1-4756-82ca-8d6c64e4c44d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/수행평가/make-image-slider-3112-ohjeongmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component-advanced/context-api-theme-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component-advanced/context-api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/수행평가/make-image-slider-3112-ohjeongmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/수행평가/make-image-slider-3112-ohjeongmin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +83,8 @@
       <workItem from="1618546845686" duration="4562000" />
       <workItem from="1618650663081" duration="14633000" />
       <workItem from="1618796028657" duration="3001000" />
+      <workItem from="1618800060068" duration="1078000" />
+      <workItem from="1619152349630" duration="2679000" />
     </task>
     <servers />
   </component>

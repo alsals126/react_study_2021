@@ -19,4 +19,6 @@
 //import './component-advanced/reservation-form'
 //import './component-intermediate/lifecycle-method-component-did-update'
 //import './component-advanced/forwarding-refs'
-import './수행평가/make-image-slider-3112-ohjeongmin'
+//import './수행평가/make-image-slider-3112-ohjeongmin'
+//import './component-advanced/context-api'
+import './component-advanced/context-api-theme-context'

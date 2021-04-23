@@ -13,29 +13,35 @@ class ImageSlider extends Component {
                 'https://via.placeholder.com/100x100?text=Image+3',
                 'https://via.placeholder.com/100x100?text=Image+4'
             ],
-            index: 0
+            currentIdx: 0
         }
     }
 
-    prevButton = (num) => {
-        this.setState((state)=> ({
-            index : state.index + num
-        }))
+    handlePrev = () => {
+        this.setState(s => {
+            return { currentIdx: s.currentIdx -1}
+        })
+    }
+
+    handleNext = () => {
+        this.setState(s => {
+            return { currentIdx: s.currentIdx +1}
+        })
     }
 
     render() {
         return (
             <div>
                 {/* 코드 작성 */}
-                {this.state.image.map((i, idx) => {
-                    if(idx === this.state.index){
-                        return <img src = {i}/>
-                    }
-                })}/>
-                {this.state.index===0 ? '': <button onClick={this.prevButton(-1)}>prev</button>}&nbsp;
-                <button>next</button><br />
+                <img src ={this.state.images[this.state.currentIdx]}/><br/>
+                {
+                    (this.state.currentIdx > 0) ? <button onClick={this.handlePrev}>prev</button> : null
+                }
+                {
+                    (this.state.currentIdx < this.state.images.length -1) ? <button onClick={this.handleNext}>next</button> : null
+                }
             </div>
-        );
+        )
     }
 }
 
