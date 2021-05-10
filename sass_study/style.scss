@@ -1,0 +1,21 @@
+@use 'base';
+
+// 중첩 구조 지원
+nav {
+  ul {
+    // nav ul { ... }
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      // nav ul li { ... }
+      display: inline-block;
+    }
+  }
+
+    // nav a { ... }
+  a {
+    display: block;
+    text-decoration: none;
+  }
+}

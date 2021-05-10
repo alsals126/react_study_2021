@@ -1,0 +1,130 @@
+
+ React.createElement(태그이름(문자열), 태그속성(객체), 컨텐츠(문자열이거나 다른 React
+Element))
+
+ <img src="..." title="img title" />
+
+ ReactDOM.render(rootDiv, rootElement)
+
+
+const lst = ['Chocolate', 'Vanilla', 'Banana'].map(flavor => {
+    return React.createElement('li', null, flavor)
+})
+
+lst = [
+    <li>Chocolate</li>,
+    <li>Vanilla</li>,
+    <li>Banana</li>
+]
+
+lst => 리액트 요소가 포함된 배열
+
+const title = 'My favorite ice cream flavors'
+const favorites = React.createElement('div', null,
+    React.createElement('h1', null, `Title : ${title}`),
+    React.createElement('ul', null, lst)
+)
+
+React.createElement('div', null, h1, ul, ...)
+
+ <div>
+      <h1>Title : My favorite ice cream flavors</h1>
+      <ul>
+             <li>Chocolate</li>
+             <li>Vanilla</li>
+            <li>Banana</li>
+      </ul>
+ </div>
+
+ul 내부에 포함된 것은 R.E가 아니고 R.E가 포함된 배열!
+
+const rootDiv = React.createElement('div', { id: 'mydiv' }, [img, paragraph, favorites])
+
+
+
+const name = 'Josh Perez'
+// 변수 내용 삽입 가능
+const element = <h1>Hello, {name}</h1>
+
+// 
+/* */
+
+if(1 && 5) {
+
+}
+
+const div2 = (<div>
+    <h1>Hello!</h1>
+    {/* 만약 읽지 않은 메시지가 있다면 경고문 출력 */}
+    {unreadMessages.length > 0 &&
+    <h2>You have {unreadMessages.length} unread messages.</h2>
+    }
+</div>)
+
+1. unreadMessages.length => 0
+ unreadMessages.length > 0 는 false로 평가 
+ unreadMessages.length > 0 반환 => false
+ { false }
+
+2. unreadMessages.length => 2
+ unreadMessages.length > 0 는 true로 평가 
+ <h2>You have {unreadMessages.length} unread messages.</h2> 반환
+ 리액트 요소가 반환
+ {<h2>You have 2 unread messages.</h2>}
+
+ 조건부 렌더링 (*)
+
+ 조건 && 조건맞으면그릴거(JSX)
+
+ login && <h1>환영합니다.</h1>
+ !isAdmin && <h1>관리자만 접근 가능합니다.</h1>
+
+ 
+
+JSX 표현식을 사용하여 조건부 렌더링을 할 경우에는 <= 
+
+인라인 스타일
+
+<h1 style="color:red">RED</h1>
+
+
+background-color <=
+
+margin-left => marginLeft
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

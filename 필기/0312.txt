@@ -1,0 +1,20 @@
+JSX (JavaScript XML)
+- HTML 태그 형식과 JS 표현식을 같이 기술할 수 있도록 자바스크립트 문법을 확장한 문법
+- 모양새는 HTML과 닮았지만 실제로는 JS코드로
+-
+- 페이스북에서 만듬
+- 컴파일러 => A언어 => 기계어
+- 트렌스파일러 => A언어 => B언어
+  - babel
+    - 자바스크립트 버전업 (ES6 최신 문법)
+    - 옛날버전에서 사용할 때 ES6 최신 문법을 옛날 문법으로 바꿔준다.
+- 타입스크립트 (트랜스파일러) => TypeScript(ts) => JavaScript(js)
+
+[ 둘 다 같은 내용임 ]
+const element = <h1>Hello, world!</h1>; //최신코드
+const element = /*#__PURE__*/React.createElement("h1", null, "Hello, world!"); //옛날코드
+
+가상 돔(virtual dom) => 메모리에 존재 (두 개의 가상 돔이 존재)
+
+
+
