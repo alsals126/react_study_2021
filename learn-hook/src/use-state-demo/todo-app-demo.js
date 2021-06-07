@@ -40,7 +40,7 @@ function TodoApp () {
                    onChange={(e) => setInput(e.target.value)}
             />
             <button onClick={handleSubmit}>Submit</button>
-            ​
+
             <ul>
                 {todos.map(({ text, id, completed }) => (
                     <li key={id}>
