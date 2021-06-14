@@ -3,12 +3,13 @@ import ReactDOM from "react-dom"
 
 const LoginUserContext = createContext(null)
 
-function LoginButton(props) {
-    // 비구조화 할당시, loginUser 정보가 필요하지 않으면 생략 가능 (세터 함수만 받기)
-    const { setLoginUser } = useContext(LoginUserContext)
-    const [ fetching, setFetching ] = useState(false)
+const UserButton = () => {
+    const { loginUser, setLoginUser } = useContext(LoginUserContext)
+    const { fetching, setFetching } = useState(false)
+    const { error, setError} = useState(null) //에러처리 해주기
 
     const handleLogin = () => {
+        //alert('handle login')
         setFetching(true)
         fetch('https://randomuser.me/api/', { headers: { 'Content-Type': 'application/json' } })
             .then(res => res.json())
@@ -22,36 +23,31 @@ function LoginButton(props) {
                     cell: data.results[0].cell,
                 });
             })
+
     }
-
-    return (
-        fetching ?
-            <button disabled>...</button> :
-            <button onClick={handleLogin}>Login</button>
-    )
-}
-
-function LogoutButton(props) {
-    const { setLoginUser } = useContext(LoginUserContext)
 
     const handleLogout = () => {
         setLoginUser(null)
     }
 
-    return (
-        <button onClick={handleLogout}>Logout</button>
-    )
-}
+    if(fetching){
+        return (<div>fetching..</div>)
+    }
 
-function UserInfo(props) {
-    const { loginUser } = useContext(LoginUserContext)
+    if(error){
+        return (<div></div>)
+    }
 
-    return (
+    return(
         <div>
-            <img src={loginUser.picture} style={{ borderRadius: '50%' }}/>
-            <p>username: {loginUser.username}</p>
-            <p>email: {loginUser.email}</p>
-            <p>cell: {loginUser.cell}</p>
+            {
+                loginUser === null ?
+                <button onClick={handleLogin}>Login</button> :
+                <div>
+                    <button onClick={handleLogout}>Logout</button>
+                    <img src
+                </div>
+            }
         </div>
     )
 }

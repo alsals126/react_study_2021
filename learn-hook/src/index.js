@@ -14,4 +14,7 @@
 //import './use-context-demo/use-context-using-user-context'
 //import './use-context-demo/use-context-using-theme-context'
 //import './use-context-demo/fake-user-app'
-import './use-context-demo/use-context-fake-login-button-intergrated'
+//import './use-context-demo/use-context-fake-login-button-intergrated'
+//import './use-reducer-demo/use-reducer-counter-1'
+//import './use-reducer-demo/use-reducer-counter-2'
+import './use-reducer-demo/use-reducer-todo-app-1'
