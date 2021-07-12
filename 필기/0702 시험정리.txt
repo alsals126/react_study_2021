@@ -1,0 +1,23 @@
+setState - 이전의 객체를 받아가지고
+            - 함수를 전달할 수도 있고
+
+todo app은 항상 기본이다
+
+preventDefault()는 기본동작을 막는것
+
+[4-2]
+(this 바인딩이 생기는 이유 필기)
+<button onClick = {this.handleClick}> -- 오류가 남
+<button onClick = {() => this.handleClick()}> -- 이렇게 해결(2번째 방법)
+
+(actions->state->view->actions 하는 그 그림에서) => 헷갈려서 한 방향이다
+
+shouldComponent에서 true를 반홚면 render함수를 호출한다
+component.... 거기에서 영어 문장이 잇는데 해석안되면 그냥 무시
+
+[5]
+ref는 값을 저장하는 변수같은건데 . 보통 DOM 요소를 저장. render에 영향을 안및ㅁ(보통 state가 바뀌면 render가 바뀌는데 얘는 바뀌어도 render가 안바뀐다)
+어떤 식으로 구현하든 상관이 없는데 웬만하면 제어컴포넌트로 해라
+고차컴포넌트 왜 쓰는지 알아두시고요
+
+<코드 쓰는 문제 없음. 서술형은 개념 위주로>
